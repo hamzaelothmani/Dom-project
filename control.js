@@ -12,11 +12,8 @@ ree[1].addEventListener("click", myRee)
 tee[1].addEventListener("click", myPee)
 yee[1].addEventListener("click", myMee)
 oee[0].addEventListener("click", heart)
-ree[0].addEventListener("click", total)
-tee[0].addEventListener("click", total)
 oee[1].addEventListener("click", like)
-ree[1].addEventListener("click", total)
-tee[1].addEventListener("click", total)
+
 
 let count = 0;
 let text = 0;
