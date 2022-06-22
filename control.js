@@ -22,19 +22,19 @@ function myFun(){
     count +=1
   }
   uee[0].innerHTML = count
-  kee.innerHTML = count *500 + text*300 + " DH"
+  kee.innerHTML = `TOTAL: ${count *500 + text*300 } DH`
 }
 function myDee(){
   if(oee[0].style.color = "gray" && count >= 1 ){
     count -=1
   }
   uee[0].innerHTML = count
-  kee.innerHTML = count *500 + text*300 + " DH"
+  kee.innerHTML = `TOTAL: ${count *500 + text*300 } DH`
 }
 function myFee(){
 count = 0
 uee[0].innerHTML = count
-kee.innerHTML = "0"
+kee.innerHTML = "TOTAL; 0"
 }
 
 function heart() {
@@ -52,19 +52,19 @@ function myRee(){
     text +=1
   }
   uee[1].innerHTML = text
-  kee.innerHTML = text *300 + count*500 +" DH"
+  kee.innerHTML = `TOTAL: ${text *300 + count*500 } DH`
   }
   function myPee(){
     if(oee[1].style.color = "gray" && text >= 1 ){
       text -=1
     }
     uee[1].innerHTML = text
-    kee.innerHTML = text *300 + count*500 + " DH"
+    kee.innerHTML = `TOTAL: ${text *300 + count*500 } DH`
   }
   function myMee(){
   text = 0
   uee[1].innerHTML = text
-  kee.innerHTML =  "0"
+  kee.innerHTML =  "TOTAL; 0"
   
   }
   function like() {
